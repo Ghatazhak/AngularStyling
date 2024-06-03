@@ -1,4 +1,4 @@
-# BEM Quick Start Guide
+# Block Element Modifier (BEM) Primer
 
 This guide provides a quick introduction to using the BEM (Block Element Modifier) methodology for naming CSS classes. BEM helps in creating reusable components and code sharing in front-end development.
 
@@ -14,7 +14,7 @@ This guide provides a quick introduction to using the BEM (Block Element Modifie
 - Element: `.block-name__element-name`
 - Modifier: `.block-name--modifier-name` or `.block-name__element-name--modifier-name`
 
-## Example: Card Component
+## Example: Card
 
 ### HTML Structure
 
@@ -98,20 +98,31 @@ Using the BEM methodology provides several benefits that improve the maintainabi
 1. **Consistent Specificity**  
    BEM ensures that class names follow a consistent pattern, which helps manage CSS specificity. This consistency makes it easier to understand the relationship between different styles and avoid issues with overriding styles unintentionally.
 
+
 2. **Avoidance of Class Collision**  
    By following a strict naming convention, BEM reduces the risk of class name collisions. Each class name is scoped to a specific block or element, making it clear where and how it should be used. This is especially beneficial in large projects or when combining multiple CSS files.
+
 
 3. **Improved Readability**  
    BEM's clear and descriptive class names improve the readability of your HTML and CSS. When looking at a class name, you can immediately understand its purpose and context within the component structure.
 
+
 4. **Reusability**  
    BEM promotes the creation of reusable components. By modularizing your styles, you can easily reuse blocks, elements, and modifiers across different parts of your project without worrying about unintended side effects.
+
 
 5. **Maintainability**  
    The structured approach of BEM makes it easier to maintain and update your styles. Changes to a block or element can be made in a single location without affecting other parts of the project. This modular approach also simplifies debugging and testing.
 
+
 6. **Scalability**  
    BEM scales well with the growth of your project. As your codebase expands, the consistent naming convention and modular structure help manage complexity and ensure that styles remain organized.
 
+
+## Additional Resources
+
+For more information on the BEM methodology, you can visit the official BEM website:
+
+[BEM Methodology Quick Start Guide](https://en.bem.info/methodology/quick-start/)
 
 
