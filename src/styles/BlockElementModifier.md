@@ -1,6 +1,6 @@
 # Block Element Modifier (BEM) Primer
 
-This guide provides a quick introduction to using the BEM (Block Element Modifier) methodology for naming CSS classes. BEM helps in creating reusable components and code sharing in front-end development.
+This primer provides a quick introduction to using the BEM (Block Element Modifier) methodology for naming CSS classes. BEM helps in creating reusable components and code sharing in front-end development.
 
 ## BEM Methodology
 
